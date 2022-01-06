@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		5B92B94F2785D4B4000E725B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B92B94D2785D4B4000E725B /* Main.storyboard */; };
 		5B92B9512785D4BB000E725B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B92B9502785D4BB000E725B /* Assets.xcassets */; };
 		5B92B9542785D4BB000E725B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B92B9522785D4BB000E725B /* LaunchScreen.storyboard */; };
+		5B92B95C2785DF54000E725B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92B95B2785DF54000E725B /* SecondViewController.swift */; };
+		5B92B95E2785DF7F000E725B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92B95D2785DF7F000E725B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5B92B9502785D4BB000E725B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B92B9532785D4BB000E725B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B92B9552785D4BB000E725B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B92B95B2785DF54000E725B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5B92B95D2785DF7F000E725B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5B92B9492785D4B4000E725B /* SceneDelegate.swift */,
 				5B92B94B2785D4B4000E725B /* ViewController.swift */,
 				5B92B94D2785D4B4000E725B /* Main.storyboard */,
+				5B92B95B2785DF54000E725B /* SecondViewController.swift */,
+				5B92B95D2785DF7F000E725B /* ThirdViewController.swift */,
 				5B92B9502785D4BB000E725B /* Assets.xcassets */,
 				5B92B9522785D4BB000E725B /* LaunchScreen.storyboard */,
 				5B92B9552785D4BB000E725B /* Info.plist */,
@@ -103,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = 5B92B93F2785D4B4000E725B /* Build configuration list for PBXProject "OrderOfEvents" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B92B95C2785DF54000E725B /* SecondViewController.swift in Sources */,
 				5B92B94C2785D4B4000E725B /* ViewController.swift in Sources */,
+				5B92B95E2785DF7F000E725B /* ThirdViewController.swift in Sources */,
 				5B92B9482785D4B4000E725B /* AppDelegate.swift in Sources */,
 				5B92B94A2785D4B4000E725B /* SceneDelegate.swift in Sources */,
 			);
